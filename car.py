@@ -5,11 +5,12 @@ start- to start the car
 stop - to stop the car
 quit- to exit
 
-except these options display i don't understand message
+except these options display some information message
 '''
 
 command = ""
 started = False
+print("Available Options\nHelp:\t Start:\t Stop:\t Quit:\t")
 while True:
     command = input(">").lower()
     if command == "help":
