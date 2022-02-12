@@ -1,5 +1,7 @@
 # guess magic number games // Beginner coding practice for if- else
-magic_number = 9
+import random
+
+magic_number = random.randint(0, 9)
 guess_limit = 3
 guess_count = 0
 while guess_count < guess_limit:
@@ -9,5 +11,6 @@ while guess_count < guess_limit:
         print("you Won !!")
         break
 else:
-    print("Try again")
+
+    print(f"Try again, magic number is {magic_number}")
 
